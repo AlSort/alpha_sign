@@ -17,6 +17,6 @@ header and dependencies for alpha.c
 #define DATA_END 3
 #define CMD_END 4
 
-int send_alpha_command(char * command, char * data);
+int send_alpha_command(char * command, char * data, int needresponse);
 
 
